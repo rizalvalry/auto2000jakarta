@@ -60,7 +60,7 @@
                  "logo": {
                      "@type": "ImageObject",
                      "@id": "https://auto2000jakarta.rimibyan.com/#logo",
-                     "url": "http://localhost/auto2000jakarta/gambar/toko/logo.png",
+                     "url": "http://auto2000jakarta.rimibyan.com/gambar/toko/logo.png",
                      "width": 686,
                      "height": 687,
                      "caption": "AUTO 2000 Toyota"
@@ -85,7 +85,7 @@
              }, {
                  "@type": "ImageObject",
                  "@id": "https://auto2000jakarta.rimibyan.com/#primaryimage",
-                 "url": "http://localhost/auto2000jakarta/gambar/toko/logo.png",
+                 "url": "http://auto2000jakarta.rimibyan.com/gambar/toko/logo.png",
                  "width": 686,
                  "height": 687
              }, {
