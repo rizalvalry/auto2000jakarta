@@ -1,0 +1,6 @@
+###########################
+# Phalcon/privacy files   #
+###########################
+/config/koneksi.php
+/.htaccess
+config/koneksi.php

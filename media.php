@@ -15,7 +15,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="pingback" href="xmlrpc.php" />
       <!--[if lt IE 9]>
-      <script src="https://honda-tulungagung.com/wp-content/themes/DividiCustomOkejasaweb/js/html5.js" type="text/javascript"></script>
+      <script src="https://auto2000jakarta.rimibyan.com/wp-content/themes/DividiCustomOkejasaweb/js/html5.js" type="text/javascript"></script>
       <![endif]-->
       <script type="text/javascript">
          document.documentElement.className = 'js';
@@ -38,70 +38,70 @@
       <meta property="og:type" content="website" />
       <meta property="og:title" content="AUTO 2000 - DP dan Angsuran Rendah, Proses Cepat" />
       <meta property="og:description" content="<?php include 'seo/dina_meta2.php'; ?>" />
-      <meta property="og:url" content="https://honda-tulungagung.com/" />
-      <meta property="og:site_name" content="Honda Tulungagung" />
-      <meta property="og:image" content="http://localhost/auto2000jakarta/gambar/toko/logo.png" />
-      <meta property="og:image:secure_url" content="http://localhost/auto2000jakarta/gambar/toko/logo.png" />
+      <meta property="og:url" content="<?= $row00['alamat_web']; ?>" />
+      <meta property="og:site_name" content="AUTO 2000 Toyota" />
+      <meta property="og:image" content="<?= $row00['alamat_web']; ?>gambar/toko/logo.png" />
+      <meta property="og:image:secure_url" content="<?= $row00['alamat_web']; ?>gambar/toko/logo.png" />
       <meta property="og:image:width" content="686" />
       <meta property="og:image:height" content="687" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content="<?php include 'seo/dina_meta2.php'; ?>" />
       <meta name="twitter:title" content="AUTO 2000 - DP dan Angsuran Rendah, Proses Cepat" />
-      <meta name="twitter:image" content="http://localhost/auto2000jakarta/gambar/toko/logo.png" />
+      <meta name="twitter:image" content="<?= $row00['alamat_web']; ?>gambar/toko/logo.png" />
       <script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>
          {
              "@context": "https://schema.org",
              "@graph": [{
                  "@type": "Organization",
-                 "@id": "https://honda-tulungagung.com/#organization",
-                 "name": "honda tulungagung",
-                 "url": "https://honda-tulungagung.com/",
+                 "@id": "https://auto2000jakarta.rimibyan.com/#organization",
+                 "name": "AUTO 2000 Toyota",
+                 "url": "https://auto2000jakarta.rimibyan.com/",
                  "sameAs": [],
                  "logo": {
                      "@type": "ImageObject",
-                     "@id": "https://honda-tulungagung.com/#logo",
+                     "@id": "https://auto2000jakarta.rimibyan.com/#logo",
                      "url": "http://localhost/auto2000jakarta/gambar/toko/logo.png",
                      "width": 686,
                      "height": 687,
-                     "caption": "honda tulungagung"
+                     "caption": "AUTO 2000 Toyota"
                  },
                  "image": {
-                     "@id": "https://honda-tulungagung.com/#logo"
+                     "@id": "https://auto2000jakarta.rimibyan.com/#logo"
                  }
              }, {
                  "@type": "WebSite",
-                 "@id": "https://honda-tulungagung.com/#website",
-                 "url": "https://honda-tulungagung.com/",
-                 "name": "Honda Tulungagung",
+                 "@id": "https://auto2000jakarta.rimibyan.com/#website",
+                 "url": "https://auto2000jakarta.rimibyan.com/",
+                 "name": "AUTO 2000 Toyota",
                  "description": "Promo DP Rendah Angsuran Ringan",
                  "publisher": {
-                     "@id": "https://honda-tulungagung.com/#organization"
+                     "@id": "https://auto2000jakarta.rimibyan.com/#organization"
                  },
                  "potentialAction": {
                      "@type": "SearchAction",
-                     "target": "https://honda-tulungagung.com/?s={search_term_string}",
+                     "target": "https://auto2000jakarta.rimibyan.com/?s={search_term_string}",
                      "query-input": "required name=search_term_string"
                  }
              }, {
                  "@type": "ImageObject",
-                 "@id": "https://honda-tulungagung.com/#primaryimage",
+                 "@id": "https://auto2000jakarta.rimibyan.com/#primaryimage",
                  "url": "http://localhost/auto2000jakarta/gambar/toko/logo.png",
                  "width": 686,
                  "height": 687
              }, {
                  "@type": "WebPage",
-                 "@id": "https://honda-tulungagung.com/#webpage",
-                 "url": "https://honda-tulungagung.com/",
+                 "@id": "https://auto2000jakarta.rimibyan.com/#webpage",
+                 "url": "https://auto2000jakarta.rimibyan.com/",
                  "inLanguage": "en-US",
                  "name": "AUTO 2000 - DP dan Angsuran Rendah, Proses Cepat",
                  "isPartOf": {
-                     "@id": "https://honda-tulungagung.com/#website"
+                     "@id": "https://auto2000jakarta.rimibyan.com/#website"
                  },
                  "about": {
-                     "@id": "https://honda-tulungagung.com/#organization"
+                     "@id": "https://auto2000jakarta.rimibyan.com/#organization"
                  },
                  "primaryImageOfPage": {
-                     "@id": "https://honda-tulungagung.com/#primaryimage"
+                     "@id": "https://auto2000jakarta.rimibyan.com/#primaryimage"
                  },
                  "datePublished": "2018-09-01T03:58:00+00:00",
                  "dateModified": "2021-04-10T09:16:43+00:00",
@@ -112,8 +112,8 @@
       <!-- / Yoast SEO plugin. -->
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel='dns-prefetch' href='http://s.w.org/' />
-      <link rel="alternate" type="application/rss+xml" title="Honda Tulungagung &raquo; Feed" href="feed/index.html" />
-      <link rel="alternate" type="application/rss+xml" title="Honda Tulungagung &raquo; Comments Feed" href="comments/feed/index.html" />
+      <link rel="alternate" type="application/rss+xml" title="AUTO 2000 Toyota &raquo; Feed" href="feed/index.html" />
+      <link rel="alternate" type="application/rss+xml" title="AUTO 2000 Toyota &raquo; Comments Feed" href="comments/feed/index.html" />
       <meta content="Divi v.3.0.106" name="generator" />
       <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min7263.css?ver=5.4.4' type='text/css' media='all' />
       <link rel='stylesheet' id='divi-style-css' href='wp-content/themes/DividiCustomOkejasaweb/style4f62.css?ver=3.0.106' type='text/css' media='all' />
@@ -132,7 +132,7 @@
       <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5834.json?url=https%3A%2F%2Fhonda-tulungagung.com%2F" />
       <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed4d74?url=https%3A%2F%2Fhonda-tulungagung.com%2F&amp;format=xml" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-      <link rel="shortcut icon" href="wp-content/uploads/2021/04/favicon-Mobil-Honda.png" />
+      <link rel="shortcut icon" href="favicon/favicon.ico" />
       <link rel="stylesheet" id="et-core-unified-cached-inline-styles" href="wp-content/cache/et/532/et-core-unified-1640336856947.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" />
       <!-- milik pijar -->
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/flexslider.min.css'>
@@ -202,9 +202,9 @@
             <!-- .container -->
             <div class="et_search_outer">
                <div class="container et_search_form_container">
-                  <form role="search" method="get" class="et-search-form" action="https://honda-tulungagung.com/">
+                  <!-- <form role="search" method="get" class="et-search-form" action="https://auto2000jakarta.rimibyan.com/">
                      <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" /> 
-                  </form>
+                  </form> -->
                   <span class="et_close_search_field"></span>
                </div>
             </div>
@@ -234,7 +234,8 @@
                                  $produkfooter = $db->query("SELECT nama_subkategori FROM subkategori_produk");
                                  while ( $footershow = $produkfooter->fetch_assoc() ){
                                  ?>
-                              <li id="menu-item-2243" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2243"><a href="mobil/honda-city-hatchback-rs/index.html"><?= $footershow['nama_subkategori'] ?></a></li>
+                              <li id="menu-item-2243" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2243">
+                                  <a href="#"><?= $footershow['nama_subkategori'] ?></a></li>
                               <?php } ?>
                            </ul>
                         </div>
@@ -253,7 +254,9 @@
                                  $produktype = $db->query("SELECT nama_kategori FROM kategori_produk");
                                  while ( $footertype = $produktype->fetch_assoc() ){
                                  ?>
-                              <li id="menu-item-2248" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2248"><a href="mobil/new-honda-cr-v/index.html"><?= $footertype['nama_kategori']; ?></a></li>
+                              <li id="menu-item-2248" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2248">
+                                  <a href="#">
+                                      <?= $footertype['nama_kategori']; ?></a></li>
                               <?php } ?>
                            </ul>
                         </div>
@@ -460,5 +463,5 @@
          });
       </script>
    </body>
-   <!-- Mirrored from honda-tulungagung.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Jan 2022 13:12:03 GMT -->
+   
 </html>
