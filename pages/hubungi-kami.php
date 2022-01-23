@@ -48,7 +48,9 @@
                            <div class="et_pb_blurb_container">
                               <h4 class="et_pb_module_header">PT. ASTRA INTERNASIONAL AUTO2000</h4>
                               <div class="et_pb_blurb_description">
-                                 <p>(AUTO 2000 Jakarta)<br /> <strong>Alamat Dealer :</strong> Jl. Gaya Motor III No.3 RW.8, RT.10/RW.8, Sungai Bambu, Tj. Priok, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14330</p>
+                                 <p> 
+								 <?= $row00['alamat']; ?>
+								</p>
                               </div>
                               <!-- .et_pb_blurb_description -->
                            </div>
