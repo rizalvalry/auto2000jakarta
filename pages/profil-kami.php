@@ -94,9 +94,9 @@
       <div class="container">
          <div class="row">
             <div class="col-xl-12">
-               <div class="founder-description text-center fadeIndown animated" data-wow-delay="1.5s">
+               <!-- <div class="founder-description text-center fadeIndown animated" data-wow-delay="1.5s">
                   <h1 class="wow fadeIndown animated" data-wow-delay="1.5s">Berita & Tips</h1>
-               </div>
+               </div> -->
             </div>
          </div>
       </div>

@@ -192,7 +192,28 @@
                            while ( $row4 = $result4->fetch_assoc() ){ ?>
                         <li id="menu-item-930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-930"><a href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
                         <?php } ?>
+                        <li id="menu-item-930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-930">
+                        <a href="#" class="raven-menu-item" data-toggle="dropdown">Berita<b class="caret"></b></a>
+                                                                <ul class="sub-menu">
+                                        
+                                                                    <?php
+                                                                                $query3 = $db->prepare("SELECT id_kategori,nama_kategori,kategori_seo FROM kategori_artikel WHERE aktif=? ORDER BY nama_kategori ASC");
+                                                                                $query3->bind_param("s", $aktif3);
+                                                                                $aktif3 = "Y";
+                                                                                $query3->execute();
+                                                                                $result3= $query3->get_result();
+                                                                                while ( $row3 = $result3->fetch_assoc() ){
+                                                                        
+                                                                                    echo '<li><a class="list" href="label-'.$row3['id_kategori'].'-'.$row3['kategori_seo'].'">'.$row3['nama_kategori'].'</a></li>';
+                                                                                
+                                                                                }
+                                                                    ?>
+
+                                                                </ul>
+                        </li>
                      </ul>
+                 
+                 
                   </nav>
                   <div id="et_mobile_nav_menu">
                      <div class="mobile_nav closed">

@@ -4011,12 +4011,6 @@ img {
     --color-purple: slateblue;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .accordion {
     width: 42rem;
     padding: 1.2rem 0;
@@ -4372,4 +4366,16 @@ img {
 .form-container .btn:hover,
 .open-button:hover {
     opacity: 1;
+}
+
+berita.artikel {
+    display: contents;
+    text-align: end;
+}
+
+img.berita-auto2000 {
+    border-radius: 50%;
+    width: 14em;
+    max-height: 14em;
+    margin: 1em;
 }

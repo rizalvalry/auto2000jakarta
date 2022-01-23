@@ -1,3 +1,4 @@
+
 <?php
 		$query55          = $db->prepare("SELECT kategori_artikel.nama_kategori FROM artikel INNER JOIN kategori_artikel ON artikel.id_kategori=kategori_artikel.id_kategori WHERE kategori_artikel.id_kategori = ?");
 		$query55->bind_param("i", $id_artikel55);
@@ -12,76 +13,31 @@
 		
 	?>
 
-<?php $queryevents = $db->query("SELECT * FROM banner where aktif='Y' AND id_banner = 25");
-					  $rowevents = $queryevents->fetch_assoc(); ?>
+<!--breadcrumbs-->
+<div class="breadcrumbs">
+   <div class="container">
+      <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+         <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Galeri</a></li>
+      </ol>
+   </div>
+</div>
+<!--//breadcrumbs-->
 
-<div class="jupiterx-site" data-markup-id="jupiterx_site">
-
-<main class="jupiterx-main" data-markup-id="jupiterx_main">
-            <div class="jupiterx-main-content" data-markup-id="jupiterx_main_content">
-                <div class="container" data-markup-id="jupiterx_fixed_wrap[_main_content]">
-                    <div class="row" data-markup-id="jupiterx_main_grid">
-                        <div class="jupiterx-primary col-lg-12" data-markup-id="jupiterx_primary">
-                            <div class="jupiterx-content" role="main" itemprop="mainEntityOfPage" data-markup-id="jupiterx_content">
-                                <article id="268" class="jupiterx-post post-268 page type-page status-publish hentry" itemscope="itemscope" itemtype="http://schema.org/CreativeWork" data-markup-id="jupiterx_post">
-                                    <header class="jupiterx-post-header" data-markup-id="jupiterx_post_header"></header>
-                                    <div class="jupiterx-post-body" itemprop="articleBody" data-markup-id="jupiterx_post_body">
-                                        <div class="jupiterx-post-content clearfix" itemprop="text" data-markup-id="jupiterx_post_content">
-                                            <div data-elementor-type="post" data-elementor-id="268" class="elementor elementor-268" data-elementor-settings="[]">
-                                                <div class="elementor-inner">
-                                                    <div class="elementor-section-wrap">
-                                                        <section class="elementor-element elementor-element-3bf34cc elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="3bf34cc" data-element_type="section"
-                                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-image:url('gambar/banner/<?= $rowevents['gambar'] ?>')">
-                                                            <div class="elementor-background-overlay"></div>
-                                                            <div class="elementor-container elementor-column-gap-default">
-                                                                <div class="elementor-row">
-                                                                    <div class="elementor-element elementor-element-24e856b elementor-column elementor-col-100 elementor-top-column" data-id="24e856b" data-element_type="column">
-                                                                        <div class="elementor-column-wrap  elementor-element-populated">
-                                                                            <div class="elementor-widget-wrap">
-                                                                                <div class="elementor-element elementor-element-0f2424c p-no-margin elementor-widget elementor-widget-heading" data-id="0f2424c" data-element_type="widget" data-widget_type="heading.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <h2 class="elementor-heading-title elementor-size-default"><?php echo $row55['nama_kategori']; ?></h2>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-dac60f6 elementor-widget elementor-widget-text-editor" data-id="dac60f6" data-element_type="widget" data-widget_type="text-editor.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                                            <p><?= $rowevents['keterangan'] ?></p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </section>
-				
-														
-                                                        <section class="elementor-element elementor-element-53560ab elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="53560ab" data-element_type="section"
-                                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                                                        </section>
-														
-														
-				<section class="elementor-element elementor-element-f30b298 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f30b298" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-				<div class="elementor-row">
-				<div class="elementor-element elementor-element-8ea52bf elementor-column elementor-col-100 elementor-top-column" data-id="8ea52bf" data-element_type="column">
-			<div class="elementor-column-wrap  elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div class="elementor-element elementor-element-5666634 elementor-widget elementor-widget-heading pemisah" data-id="5666634" data-element_type="widget" data-widget_type="heading.default">
-		
-				<!-- isi -->
-				
-					
-						<!-- banner-area-start -->
-			<div class="container  animated wow slideInLeft" data-wow-delay=".5s">
-				<div class="container">
-					<div class="row">
-
-                  
-						
-					<?php
+<div id="page-container">
+<div id="et-main-area">
+<div id="main-content">
+   <div class="container">
+      <div id="content-area" class="clearfix">
+         <div id="left-area">
+          
+         
+            <article id="post-2792" class="et_pb_post post-2792 post type-post status-publish format-standard has-post-thumbnail hentry category-artikel">
+            
+			<!-- .et_pb_section -->
+               <div class=" et_pb_row et_pb_row_2 et_pb_gutters2 et_pb_row_fullwidth">
+                  <!-- <div class="container"> -->
+                  <main class="grid">
+				  <?php
 				include "config/tgl_indo.php";
 				$batas                   = 9;
 				if ( empty($_GET['hallabel']) ){
@@ -102,79 +58,76 @@
 					$isi                 = substr($isi_artikel,0,strrpos($isi," ")); // potong per spasi kalimat
 
 			?>
-						<div class="col-xl-4 col-lg-4 col-md-4 col-12">
-							<!-- single-banner-start -->
-							<div class="single-banner mb-3">
-								<div class="banner-img">
-									<a href="event-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>"><img src="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" class="rounded" alt="banner" style="width:358px; height:250px" /></a>
-								</div>
-								<div class="banner-content-3 wow slideInLeft" data-wow-duration="1.0s" data-wow-delay="2s">
-									<p class="white-text"><?php echo $row5['judul_artikel']; ?></p class="white-text">
-									<!-- <h2>Clothing Originals</h2> -->
-									<!-- <a href="<?php echo $row5['url']; ?>" class="text-white">view collection</a> -->
-								</div>
-							</div>
-							<!-- single-banner-end -->
+                     <berita class="artikel">
+                        <img class="berita-auto2000" src="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" alt="Sample photo">
+                        <div class="text">
+                           <h3><?php echo $row5['judul_artikel']; ?></h3>
+						   <hr></hr>
+                           <a href="berita-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>">Detail Artikel</a>
                         </div>
-                        <?php } ?>
+                     </berita>
+                     <?php
+                        }
+                        ?>
+                  </main>
+                  <!-- </div> -->
+                  <!-- selesai disini -->
+               </div>
+               <!-- .et_pb_column -->
+       
+            
+
+            </article>
+            <!-- .et_pb_post -->
+          
+            <div class="pagination clearfix">
+               <div class="alignleft"></div>
+               <div class="alignright"></div>
+            </div>
+         </div>
+         <!-- #left-area -->
+         <div id="sidebar">
+            <div id="search-2" class="et_pb_widget widget_search">
+               <form role="search" method="get" id="searchform" class="searchform" action="https://honda-tulungagung.com/">
+               </form>
+            </div>
+            <!-- end .et_pb_widget -->		
+            <div id="recent-posts-2" class="et_pb_widget widget_recent_entries">
+               <h4 class="widgettitle">Kategori Berita</h4>
+			   <ul class="faq">
+						<?php
+							$query56 = $db->query("SELECT id_kategori,nama_kategori,kategori_seo FROM kategori_artikel ORDER BY nama_kategori ASC");
+							while ( $row56   = $query56->fetch_assoc() ){
+						?>
+							<li class="item1"><a href="label-<?php echo $row56['id_kategori']; ?>-<?php echo $row56['kategori_seo']; ?>.html"><?php echo $row56['nama_kategori']; ?></a>
+						<?php
+							}
+						?>
+						</ul>
+						<hr class="margin-auto">
+						<h4> Download </h4>
+						<ul class="faq">
+						<?php
+							$query1234         = $db->query("SELECT file, judul_file FROM file WHERE aktif = 'Y' ORDER BY id_file DESC");
+							while ( $row1234   = $query1234->fetch_assoc() ){
+								echo '<li><a href="file/'.$row1234['file'].'">'.$row1234['judul_file'].'</a></li>';
+							}
 						
-					</div>
-				</div>
+						?>										
+						</ul>
+            </div>
+           
+         </div>
+         <!-- end #sidebar -->
+      </div>
+      <!-- #content-area -->
+   </div>
+   <!-- .container -->
+</div>
+<!-- #main-content -->
+<span class="et_pb_scroll_top et-pb-icon"></span>
 
-				
-
-				<!-- pages -->
-				<div class="clearfix"></div>
-							<div class="grid_3 grid_5 wow fadeInDown animated" data-wow-delay=".5s">
-							<center>
-								<ul class="pagination pagination-lg">
-								<?php
-									$query27      = $db->query("SELECT id_artikel FROM artikel,kategori_artikel WHERE artikel.id_kategori=kategori_artikel.id_kategori AND kategori_artikel.id_kategori = '$_GET[id]'");
-									$row27        = $query27->num_rows;
-									$jumlah_hal27 = ceil ($row27/$batas);
-								?>
-								
-								<li style="<?php if ( $_GET['hallabel'] <= 1 ) echo "display:none"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] - 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">«</i></span></a></li>
-									<!-- <span class="badge"> -->
-									<?php
-										for ( $i = 1; $i <= $jumlah_hal27; $i++ ){
-									?>
-										<li class="<?php if ( $_GET['hallabel'] == $i ) echo "number-active"; ?>">
-										<a class="font-number-active" href="hallabel-<?php echo $_GET['id'].'-'. $i; ?>"><?php echo $i; ?></a>
-										<!-- </span> -->
-									</li>
-									<?php
-										}
-									?>
-									<li style="<?php if ( $_GET['hallabel'] >= $jumlah_hal27 ) echo "display:none"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] + 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">»</i></span></a></li>
-								</ul>
-							</center>
-							</div>
-						</div>
-				<!-- end pages -->
-
-
-			</div>
-            <!-- banner-area-end -->
-
-
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-				
-						</div>
-			</div>
-		</div>
-		</div></div></article></div></div></div></div></div>
-
-
-
-    </div>
-
-	<?php
+<?php
 		} else {
 			$query45 = $db->query("SELECT nama_kategori FROM kategori_artikel WHERE id_kategori='$_GET[id]'");
 			$row45   = $query45->fetch_assoc();

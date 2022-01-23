@@ -4,6 +4,7 @@
       <h2 class="banner-promo"> Dapatkan Promo di auto2000</h2>
    </div>
 </section>
+
 <div id="page-container">
 <div id="et-main-area">
 <div id="main-content">
@@ -37,11 +38,11 @@
             <div id="recent-posts-2" class="et_pb_widget widget_recent_entries">
                <h4 class="widgettitle">Info Terbaru</h4>
                <ul>
-                  <?php $querybar = $db->query("SELECT judul_artikel FROM artikel");
+                  <?php $querybar = $db->query("SELECT id_artikel, judul_artikel, judul_seo FROM artikel");
                      ?>
                   <?php while ( $barartikel = $querybar->fetch_assoc() ){ ?>
                   <li>
-                     <a href="../../artikel/mulai-pengiriman-ke-konsumen-honda-umumkan-harga-honda-city-hatchback-rs-di-indonesia/index.html">
+                     <a href="berita-<?php echo $barartikel['id_artikel']; ?>-<?php echo $barartikel['judul_seo']; ?>">
                      (<?= $barartikel['judul_artikel']; ?>)
                      </a>
                   </li>
@@ -49,13 +50,13 @@
                </ul>
             </div>
             <!-- end .et_pb_widget -->
-            <div id="categories-2" class="et_pb_widget widget_categories">
-               <h4 class="widgettitle">Categories</h4>
+            <!-- <div id="categories-2" class="et_pb_widget widget_categories">
+               <h4 class="widgettitle">Kategori</h4>
                <ul>
                   <li class="cat-item cat-item-1 current-cat"><a aria-current="page" href="index.html">Artikel</a></li>
                   <li class="cat-item cat-item-2"><a href="../mobil/index.html">Mobil</a></li>
                </ul>
-            </div>
+            </div> -->
             <!-- end .et_pb_widget -->	
          </div>
          <!-- end #sidebar -->
