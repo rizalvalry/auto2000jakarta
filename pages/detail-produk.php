@@ -10,7 +10,6 @@
    <div class="container">
       <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
          <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Beranda</a></li>
-         <li class="active">Detail Produk</li>
       </ol>
    </div>
 </div>
@@ -93,14 +92,16 @@
             <?php echo $harga_barang; ?>			
             <ul class="size">
                <h4>Tipe</h4>
-               <li><a href="kategori-produk-<?php echo $row10['id_kategori']; ?>-<?php echo $row10['kategori_seo']; ?>.html"><?php echo $row10['nama_kategori']; ?></a> <b>&bull;</b> <a href="kategori-<?php echo $row10['id_subkategori'] ?>-<?php echo $row10['subkategori_seo'] ?>.html"><?php echo $row10['nama_subkategori']; ?></a></li>
+               <li><a href="kategori-produk-<?php echo $row10['id_kategori']; ?>-<?php echo $row10['kategori_seo']; ?>"><?php echo $row10['nama_kategori']; ?></a> <b>&bull;</b> <a href="kategori-<?php echo $row10['id_subkategori'] ?>-<?php echo $row10['subkategori_seo'] ?>"><?php echo $row10['nama_subkategori']; ?></a></li>
             </ul>
             <ul class="color">
                <h4>Bobot Dimensi</h4>
                <li><?php echo $row10['berat']; ?> kg</li>
             </ul>
             <div class="clearfix"> </div>
-            <?= $row10['stok']; ?>
+            
+			<!-- // $row10['stok'];  -->
+			
          </div>
          <div class="clearfix"> </div>
       </div>
@@ -112,7 +113,7 @@
                <div class="panel-heading" role="tab" id="headingOne">
                   <h4 class="panel-title">
                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     Deskripsi Produk
+                     Deskripsi
                      </a>
                   </h4>
                </div>

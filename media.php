@@ -138,6 +138,10 @@
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/flexslider.min.css'>
       <link rel="stylesheet" href="style.css">
       <!-- end milik pijar -->
+      <!-- font-awesome css -->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!-- ionicons.min css -->
+      <link rel="stylesheet" href="css/ionicons.min.css">
    </head>
    <body data-rsssl=1 class="home page-template-default page page-id-532 et_button_custom_icon et_pb_button_helper_class et_fixed_nav et_show_nav et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et_minified_js et_minified_css">
       <div id="page-container">
@@ -204,7 +208,7 @@
                <div class="container et_search_form_container">
                   <!-- <form role="search" method="get" class="et-search-form" action="https://auto2000jakarta.rimibyan.com/">
                      <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" /> 
-                  </form> -->
+                     </form> -->
                   <span class="et_close_search_field"></span>
                </div>
             </div>
@@ -235,7 +239,8 @@
                                  while ( $footershow = $produkfooter->fetch_assoc() ){
                                  ?>
                               <li id="menu-item-2243" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2243">
-                                  <a href="#"><?= $footershow['nama_subkategori'] ?></a></li>
+                                 <a href="#"><?= $footershow['nama_subkategori'] ?></a>
+                              </li>
                               <?php } ?>
                            </ul>
                         </div>
@@ -255,8 +260,9 @@
                                  while ( $footertype = $produktype->fetch_assoc() ){
                                  ?>
                               <li id="menu-item-2248" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2248">
-                                  <a href="#">
-                                      <?= $footertype['nama_kategori']; ?></a></li>
+                                 <a href="#">
+                                 <?= $footertype['nama_kategori']; ?></a>
+                              </li>
                               <?php } ?>
                            </ul>
                         </div>
@@ -277,7 +283,7 @@
                                       <span style="margin-left:  9px; font-size: 12px; line-height: 14px;  color: #fff;">+62 822-6666-1662</span></a>
                               </div> -->
                            <div style="float:none; margin: 2px 0px;">
-                              <a href="https://api.whatsapp.com/send?phone=6282266661662&amp;text=Halo%20honda-tulungagung.com,%20Saya%20mau%20tanya..."><img src="wp-content/uploads/2019/03/logo-wa.png" style="width: 16px; float: left; margin-top: 3px;" alt="" />
+                              <a href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&amp;text=Halo%20AUTO-2000,%20Saya%20mau%20tanya..."><img src="wp-content/uploads/2019/03/logo-wa.png" style="width: 16px; float: left; margin-top: 3px;" alt="" />
                               <span style="margin-left:  9px; margin-right: 9px; font-size: 12px; line-height: 14px;  color: #fff;">+62 857-8157-1742</span></a>
                            </div>
                         </div>
@@ -335,6 +341,68 @@
              </div>
          </div>
          </div> -->
+      <!-- options 3  -->
+      <div class="fab-wrapper wow fadeInUp animated" data-wow-delay=".2s">
+         <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
+         <label class="fab" for="fabCheckbox">
+         <span class="fab-dots fab-dots-1"></span>
+         <span class="fab-dots fab-dots-2"></span>
+         </label>
+         <div class="fab-wheel">
+            <a class="fab-action fab-action-3" href="#" onclick="openForm()">
+            <img src="https://auto2000.co.id/_ui/responsive/theme-auto2000/images/need-help.png" style="width:120px;">
+            </a>
+            <a class="fab-action fab-action-4" href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&text=Halo%20*Butik(butik-kitchen)*,%20saya%20ingin%20consultasi%20dengan%20anda">
+            <i class="fa fa-whatsapp" style="color:green;"  aria-hidden="true"></i>
+            </a>
+         </div>
+      </div>
+      <!-- end options -->
+      <!-- form -->
+      <div class="chat-popup" id="myForm">
+         <form onsubmit="return showInput()" class="form-container">
+            <img src="https://d141cscbo5t2xj.cloudfront.net/sites/3002/binesh-realty-group-laguna-hills-ca-real-estate-chat.png" style="width:120px;">
+            <label for="msg"><b>Tanya Tasia</b></label>
+            <textarea placeholder="isi pesan.. " id="user_pesan" required></textarea>
+            <a href="#" id="link2" target="_blank"  onclick="showInput();">
+            <button type="button" class="btn cancel">
+            Kirim
+            </button>
+            </a>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+         </form>
+      </div>
+      <!-- end form -->
+      <script>
+         function openForm() {
+         document.getElementById("myForm").style.display = "block";
+         }
+         
+         function closeForm() {
+         document.getElementById("myForm").style.display = "none";
+         }
+      </script>
+      <script>
+         var str = "<?php echo $rowcrumb['nomor_hp']; ?>";
+         
+         function showInput() {
+         
+             var d = document.getElementById("user_pesan").value;
+             var wa = "https://api.whatsapp.com/send?phone=";
+             var sap = "&text=Halo%20*AUTO-2000*,";
+         	var enter = "%0A";
+         	
+         	if(d == "") {
+         		alert("Mohon isi pesan Anda");
+         		return false;
+           	} else {
+         		var strLink = wa + str + sap + enter + d;
+         		document.getElementById("link2").setAttribute("href", strLink);
+         		console.log(strLink);
+         	}
+         
+         }
+      </script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var et_shortcodes_strings = {
@@ -463,5 +531,4 @@
          });
       </script>
    </body>
-   
 </html>

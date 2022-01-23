@@ -334,13 +334,13 @@ Konsumen hanya perlu mengajak ngobrol Tasia seperti menulis â€œmau servis dongâ€
                <!-- .et_pb_column -->
                <div class="et_pb_column et_pb_column_1_4  et_pb_column_21 et_pb_css_mix_blend_mode_passthrough">
                   <div class="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_left">
-                     <a class="et_pb_button et_pb_custom_button_icon  et_pb_button_16 et_pb_module et_pb_bg_layout_light" href="tel:+6282266661662" data-icon="&#xe090;">TELP : 0857-8157-1742</a>
+                     <a class="et_pb_button et_pb_custom_button_icon  et_pb_button_16 et_pb_module et_pb_bg_layout_light" href="tel:+<?php echo $row00['nomor_hp']; ?>" data-icon="&#xe090;">TELP : 0857-8157-1742</a>
                   </div>
                </div>
                <!-- .et_pb_column -->
                <div class="et_pb_column et_pb_column_1_4  et_pb_column_22 et_pb_css_mix_blend_mode_passthrough et-last-child">
                   <div class="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_">
-                     <a class="et_pb_button et_pb_custom_button_icon  et_pb_button_17 et_pb_module et_pb_bg_layout_light" href="https://api.whatsapp.com/send?phone=6282266661662&amp;text=Halo%20honda-tulungagung.com,%20Saya%20Mau%20tanya..." data-icon="&#xe066;">Chat Via WhatsApp</a>
+                     <a class="et_pb_button et_pb_custom_button_icon  et_pb_button_17 et_pb_module et_pb_bg_layout_light" href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&amp;text=Halo%20AUTO-2000,%20Saya%20Mau%20tanya..." data-icon="&#xe066;">Chat Via WhatsApp</a>
                   </div>
                </div>
                <!-- .et_pb_column -->
