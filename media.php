@@ -361,7 +361,7 @@
       <!-- form -->
       <div class="chat-popup" id="myForm">
          <form onsubmit="return showInput()" class="form-container">
-            <img src="https://d141cscbo5t2xj.cloudfront.net/sites/3002/binesh-realty-group-laguna-hills-ca-real-estate-chat.png" style="width:120px;">
+            <img src="https://d141cscbo5t2xj.cloudfront.net/sites/3002/binesh-realty-group-laguna-hills-ca-real-estate-chat.png" style="width:50px;">
             <label for="msg"><b>Tanya Tasia</b></label>
             <textarea placeholder="isi pesan.. " id="user_pesan" required></textarea>
             <a href="#" id="link2" target="_blank"  onclick="showInput();">
