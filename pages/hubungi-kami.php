@@ -37,7 +37,7 @@
                <div class=" et_pb_row et_pb_row_1 et_pb_gutters2">
                   <div class="et_pb_column et_pb_column_1_4  et_pb_column_1 et_pb_css_mix_blend_mode_passthrough">
                      <div class="et_pb_module et_pb_image et_pb_image_0 et_always_center_on_mobile">
-                        <span class="et_pb_image_wrap"><img src="../wp-content/uploads/2021/04/Foto-Serah-Terima-Mobil-Honda-Tulungagung.jpg" alt="" /></span>
+                       
                      </div>
                   </div>
                   <!-- .et_pb_column -->
