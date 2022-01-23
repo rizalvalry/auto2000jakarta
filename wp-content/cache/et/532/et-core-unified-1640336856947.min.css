@@ -300,21 +300,21 @@ select {
 }
 
 h1:hover a {
-    color: #e11428
+    color: #e11428;
 }
 
 .breadcrumb-yoast {
     font-size: 10px;
-    color: #9b9b9
+    color: #9b9b97;
 }
 
 .breadcrumb-yoast strong {
-    font-weight: 400
+    font-weight: 400;
 }
 
 .breadcrumb-yoast a {
     font-size: 10px;
-    color: #9b9b9
+    color: #9b9b97;
 }
 
 .tg {
