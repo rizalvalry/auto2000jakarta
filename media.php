@@ -15,7 +15,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="pingback" href="xmlrpc.php" />
       <!--[if lt IE 9]>
-      <script src="https://auto2000jakarta.rimibyan.com/wp-content/themes/DividiCustomOkejasaweb/js/html5.js" type="text/javascript"></script>
+      <script src="https://auto2000toyota.com/wp-content/themes/DividiCustomOkejasaweb/js/html5.js" type="text/javascript"></script>
       <![endif]-->
       <script type="text/javascript">
          document.documentElement.className = 'js';
@@ -53,55 +53,55 @@
              "@context": "https://schema.org",
              "@graph": [{
                  "@type": "Organization",
-                 "@id": "https://auto2000jakarta.rimibyan.com/#organization",
+                 "@id": "https://auto2000toyota.com/#organization",
                  "name": "AUTO 2000 Toyota",
-                 "url": "https://auto2000jakarta.rimibyan.com/",
+                 "url": "https://auto2000toyota.com/",
                  "sameAs": [],
                  "logo": {
                      "@type": "ImageObject",
-                     "@id": "https://auto2000jakarta.rimibyan.com/#logo",
-                     "url": "http://auto2000jakarta.rimibyan.com/gambar/toko/logo.png",
+                     "@id": "https://auto2000toyota.com/#logo",
+                     "url": "http://auto2000toyota.com/gambar/toko/logo.png",
                      "width": 686,
                      "height": 687,
                      "caption": "AUTO 2000 Toyota"
                  },
                  "image": {
-                     "@id": "https://auto2000jakarta.rimibyan.com/#logo"
+                     "@id": "https://auto2000toyota.com/#logo"
                  }
              }, {
                  "@type": "WebSite",
-                 "@id": "https://auto2000jakarta.rimibyan.com/#website",
-                 "url": "https://auto2000jakarta.rimibyan.com/",
+                 "@id": "https://auto2000toyota.com/#website",
+                 "url": "https://auto2000toyota.com/",
                  "name": "AUTO 2000 Toyota",
                  "description": "Promo DP Rendah Angsuran Ringan",
                  "publisher": {
-                     "@id": "https://auto2000jakarta.rimibyan.com/#organization"
+                     "@id": "https://auto2000toyota.com/#organization"
                  },
                  "potentialAction": {
                      "@type": "SearchAction",
-                     "target": "https://auto2000jakarta.rimibyan.com/?s={search_term_string}",
+                     "target": "https://auto2000toyota.com/?s={search_term_string}",
                      "query-input": "required name=search_term_string"
                  }
              }, {
                  "@type": "ImageObject",
-                 "@id": "https://auto2000jakarta.rimibyan.com/#primaryimage",
-                 "url": "http://auto2000jakarta.rimibyan.com/gambar/toko/logo.png",
+                 "@id": "https://auto2000toyota.com/#primaryimage",
+                 "url": "http://auto2000toyota.com/gambar/toko/logo.png",
                  "width": 686,
                  "height": 687
              }, {
                  "@type": "WebPage",
-                 "@id": "https://auto2000jakarta.rimibyan.com/#webpage",
-                 "url": "https://auto2000jakarta.rimibyan.com/",
+                 "@id": "https://auto2000toyota.com/#webpage",
+                 "url": "https://auto2000toyota.com/",
                  "inLanguage": "en-US",
                  "name": "AUTO 2000 - DP dan Angsuran Rendah, Proses Cepat",
                  "isPartOf": {
-                     "@id": "https://auto2000jakarta.rimibyan.com/#website"
+                     "@id": "https://auto2000toyota.com/#website"
                  },
                  "about": {
-                     "@id": "https://auto2000jakarta.rimibyan.com/#organization"
+                     "@id": "https://auto2000toyota.com/#organization"
                  },
                  "primaryImageOfPage": {
-                     "@id": "https://auto2000jakarta.rimibyan.com/#primaryimage"
+                     "@id": "https://auto2000toyota.com/#primaryimage"
                  },
                  "datePublished": "2018-09-01T03:58:00+00:00",
                  "dateModified": "2021-04-10T09:16:43+00:00",
@@ -227,7 +227,7 @@
             <!-- .container -->
             <div class="et_search_outer">
                <div class="container et_search_form_container">
-                  <!-- <form role="search" method="get" class="et-search-form" action="https://auto2000jakarta.rimibyan.com/">
+                  <!-- <form role="search" method="get" class="et-search-form" action="https://auto2000toyota.com/">
                      <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" /> 
                      </form> -->
                   <span class="et_close_search_field"></span>
