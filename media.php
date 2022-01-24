@@ -373,7 +373,7 @@
             <a class="fab-action fab-action-3" href="#" onclick="openForm()">
             <img src="https://auto2000.co.id/_ui/responsive/theme-auto2000/images/need-help.png" style="width:120px;">
             </a>
-            <a class="fab-action fab-action-4" href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&text=Halo%20*Butik(butik-kitchen)*,%20saya%20ingin%20consultasi%20dengan%20anda">
+            <a class="fab-action fab-action-4" href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&amp;text=Halo%20AUTO-2000,%20Saya%20Mau%20tanya...">
             <i class="fa fa-whatsapp" style="color:green;"  aria-hidden="true"></i>
             </a>
          </div>
