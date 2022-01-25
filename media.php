@@ -304,7 +304,7 @@
                                       <span style="margin-left:  9px; font-size: 12px; line-height: 14px;  color: #fff;">+62 822-6666-1662</span></a>
                               </div> -->
                            <div style="float:none; margin: 2px 0px;">
-                              <a href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&amp;text=Halo%20AUTO-2000,%20Saya%20mau%20tanya..."><img src="wp-content/uploads/2019/03/logo-wa.png" style="width: 16px; float: left; margin-top: 3px;" alt="" />
+                              <a href="https://api.whatsapp.com/send?phone=<?php echo $row00['nomor_hp']; ?>&amp;text=Halo%20AUTO-2000,%20Saya%20mau%20tanya..."><img src="images/chat.png" style="width: 16px; float: left; margin-top: 3px;" alt="" />
                               <span style="margin-left:  9px; margin-right: 9px; font-size: 12px; line-height: 14px;  color: #fff;"><?php $show =ltrim($row00['nomor_hp'], '62');
 								echo "0".$show; ?></span></a>
                            </div>
