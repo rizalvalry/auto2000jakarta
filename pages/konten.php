@@ -48,7 +48,13 @@
                         <div class="et_pb_text_inner">
                            <h3>HOT PROMO</h3>
                            <h1><?= $diskontampil['nama_produk']; ?></h1>
-                           <h1><span style="font-size: 11px !important; vertical-align: top;"> DISKON Mulai</span> <?= $diskontampil['diskon'] ?><span style="font-size: 14px !important; vertical-align: top;"> %</span></h1>
+                           <h1> <span style="font-size: 14px !important; vertical-align: top;"> <?php 
+                           
+                           if($diskontampil['diskon'] > 20)  {
+                               echo "Promo DP Ringan";
+                           } else {
+                              "";
+                           } ?> </span></h1>
                         </div>
                      </div>
                      <!-- .et_pb_text -->
