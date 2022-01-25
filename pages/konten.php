@@ -334,7 +334,8 @@ Konsumen hanya perlu mengajak ngobrol Tasia seperti menulis â€œmau servis dongâ€
                <!-- .et_pb_column -->
                <div class="et_pb_column et_pb_column_1_4  et_pb_column_21 et_pb_css_mix_blend_mode_passthrough">
                   <div class="et_pb_button_module_wrapper et_pb_module et_pb_button_alignment_left">
-                     <a class="et_pb_button et_pb_custom_button_icon  et_pb_button_16 et_pb_module et_pb_bg_layout_light" href="tel:+<?php echo $row00['nomor_hp']; ?>" data-icon="&#xe090;">TELP : 0857-8157-1742</a>
+                     <a class="et_pb_button et_pb_custom_button_icon  et_pb_button_16 et_pb_module et_pb_bg_layout_light" href="tel:+<?php echo $row00['nomor_hp']; ?>" data-icon="&#xe090;">TELP : <?php $show =ltrim($row00['nomor_hp'], '62');
+								echo "0".$show; ?></a>
                   </div>
                </div>
                <!-- .et_pb_column -->
