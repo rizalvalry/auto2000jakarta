@@ -11,6 +11,13 @@
 <html lang="en-US">
    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
    <head>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TM7FR28');</script>
+      <!-- End Google Tag Manager -->
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <link rel="pingback" href="xmlrpc.php" />
@@ -144,7 +151,13 @@
       <link rel="stylesheet" href="css/ionicons.min.css">
    </head>
    <body data-rsssl=1 class="home page-template-default page page-id-532 et_button_custom_icon et_pb_button_helper_class et_fixed_nav et_show_nav et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et_minified_js et_minified_css">
-      <div id="page-container">
+   
+   <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM7FR28"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- End Google Tag Manager (noscript) -->
+   
+   <div id="page-container">
          <header id="main-header" data-height-onload="45">
             <div class="container clearfix et_menu_container">
                <div class="logo_container">
