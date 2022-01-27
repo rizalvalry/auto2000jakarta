@@ -338,17 +338,14 @@
          var et_animation_data = [];
          </script> -->
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194305498-1"></script>
-         <script>
-             window.dataLayer = window.dataLayer || [];
-         
-             function gtag() {
-                 dataLayer.push(arguments);
-             }
-             gtag('js', new Date());
-         
-             gtag('config', 'UA-194305498-1');
-         </script> -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0XSQZV77G"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-G0XSQZV77G');
+      </script>
       <!-- google tag manager -->
       <!-- <div class="wpcs">
          <div class="wpcs-content">
